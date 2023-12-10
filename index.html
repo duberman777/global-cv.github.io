@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+<body>
+    <!-- First section -->
+<header>
+    <h1 class="animated bounceInDown">GLOBAL-CV</h1>
+    <h2 class="animated bounceInDown">Profesjonalne Tworzenie CV na Zamówienie</h2>
+    <span class="animated bounce"></span>
+  </header>
+  
+ <!-- Scroll animations section -->
+<h2 class="new-section">Nasze Usługi</h2>
+<div class="scroll-animations scroll-animations-plus animated-new-section">
+  <div class="animated animated-plus">
+    <img src="img/cv.png" alt="Tworzenie Profesjonalnych CV">
+    <h3>Tworzenie Profesjonalnych CV</h3>
+    <p>Weźmiemy pod uwagę Twoje doświadczenie, umiejętności i cele, aby stworzyć CV, które podkreśli Twoją unikalność i dostosowanie do konkretnej oferty pracy.</p>
+  </div>
+  <div class="animated animated-plus animated-new-section">
+    <img src="img/writing.png" alt="Listy Motywacyjne">
+    <h3>Listy Motywacyjne</h3>
+    <p> Osobiste wywiady w celu zidentyfikowania Twoich zawodowych celów i motywacji, aby napisać przekonujące listy.</p>
+  </div>
+  <div class="animated animated-plus animated-new-section">
+    <img src="img/resume.png" alt="Optymalizacja Istniejących CV">
+    <h3>Optymalizacja Istniejących CV</h3>
+    <p>Pełna Analiza: Głęboka analiza Twojego obecnego CV w celu zidentyfikowania możliwości poprawy.</p>
+  </div>
+</div>
+
+
+<div class="wrapper">
+<main class="main flow">
+    <h1 class="main__heading">Cennik</h1>
+    <div class="main__cards cards">
+      <div class="cards__inner">
+        <div class="cards__card card">
+          <h2 class="card__heading padding">Listy Motywacyjne</h2>
+          <p class="card__price">9.99€</p>
+          <ul role="list" class="card__bullets flow">
+            <li>Osobiste rozmowy w celu wyjaśnienia Twoich profesjonalnych motywacji i celów.</li>
+            <li>Przygotowanie unikalnego listu motywacyjnego, podkreślającego Twoją niepowtarzalność i wybitne cechy.</li>
+            <li>Możliwość edycji i dyskusji nad wstępnymi wersjami.</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ4aanupVOYrR9MGNewJwoNrrSRVsyLUdKhiR5-uGgYCEfBg/viewform?usp=sf_link" class="card__cta cta">Zamów</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">Tworzenie Profesjonalnych CV</h2>
+          <p class="card__price">19.99€</p>
+          <ul role="list" class="card__bullets flow">
+            <li>Osobiste spotkanie z doświadczonym specjalistą w celu zidentyfikowania Twoich unikalnych cech, umiejętności i celów zawodowych.</li>
+            <li>Opracowanie spersonalizowanego CV, podkreślającego Twój zawodowy doświadczenie i przyciągające uwagę pracodawców.</li>
+            <li>Możliwość wprowadzania poprawek i dyskusji na temat wstępnych wersji.</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ4aanupVOYrR9MGNewJwoNrrSRVsyLUdKhiR5-uGgYCEfBg/viewform?usp=sf_link" class="card__cta cta">Zamów</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">Optymalizacja Istniejących CV</h2>
+          <p class="card__price">9.99€</p>
+          <ul role="list" class="card__bullets flow">
+            <li>Dokładna analiza Twojego obecnego CV w celu identyfikacji mocnych stron i możliwych ulepszeń.</li>
+            <li>Wprowadzenie zmian w celu zoptymalizowania i maksymalnego wyeksponowania Twojego zawodowego potencjału.</li>
+            <li>Konsultacje i opinie na temat wszystkich zmian.</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ4aanupVOYrR9MGNewJwoNrrSRVsyLUdKhiR5-uGgYCEfBg/viewform?usp=sf_link" class="card__cta cta">Zamów</a>
+        </div>
+      </div>
+      
+      <div class="overlay cards__inner"></div>
+    </div>
+  </main>
+</div>
+
+
+  
+  <!-- Click animations section -->
+  <div class="click-animations">
+    <h2 class="new-section">Kontakt</h2>
+    <form action="sendmail.php" method="post">
+      <input type="text" name="q1" placeholder="Imię i Nazwisko" id="name" />
+      <input type="email" name="q2" placeholder="Email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+      <textarea rows="7" name="q3" placeholder="Wiadomość" id="message"></textarea>
+      <button type="submit" name="submit" value="Wysłać" class="hidden">Wysłać</button>
+    </form>
+   
+    
+  </div>
+  
+  <!-- Funky animations section -->
+  <div class="funky-animations">
+    <h2 class="new-section">Funky Animations</h2>
+    <h3>Don't try this at home kids</h3>
+    <div>
+      <h4>Click Me</h4>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    Made with <span class="animated pulse">&#9829;</span> and <span class="animated swing">&#60;&#47;&#62;</span>
+    <br> Check out the tutorial on <a href="https://scotch.io/tutorials/level-up-your-websites-with-animatecss" target="_blank">Global-CV</a>
+  </footer>
+</body>
+<script src="common.js"></script>
+</html>

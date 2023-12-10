@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful submission</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Ваши метатеги и другие элементы заголовка -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Успешная отправка</title>
+    </head>
+    <body>
+        <!-- Ваш контент success.html -->
+    
+        <!-- Скрипт для перенаправления через 2 секунды -->
+    <script>
+        // Функция для перенаправления
+        function redirectToMainPage() {
+            // Задержка в 2000 миллисекунд (2 секунды)
+            setTimeout(function() {
+                // Перенаправляем на главную страницу
+                window.location.href = 'http://localhost:8888/site_2/index.html';
+            }, 1000);
+        }
+
+        // Запускаем функцию после полной загрузки страницы
+        window.addEventListener('load', redirectToMainPage);
+    </script>
+    </body>
+    </html>
+    
+
+    <header>
+        <h1 class="animated bounceInDown success">Wyniki zostały wysłane na określony adres e-mail. Dziękuję!</h1>
+    </header>
+
+</body>
+</html>
+
+
+
